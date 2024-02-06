@@ -1,0 +1,148 @@
+body {
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #d6d6ea;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  background-color: rgb(10, 9, 9);
+  position: fixed;
+  top: 0;
+}
+
+.cabeca {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #d6d6ea;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  width: 100%;
+  margin-left: 1rem;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.logo:hover{
+  transform: 0.3s;
+  color: white;
+}
+
+header .menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 1rem;
+  cursor: pointer;
+  opacity: 1;
+}
+
+header .menu:hover {
+  transition: 0.3s;
+  color: white;
+}
+
+
+
+
+.container-aplicativo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+  transition: black;
+}
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#informacoes-faixa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0rem 0 0 0;
+  font-size: 1.5rem;
+}
+
+
+#anterior, #proximo {
+  font-size: 2rem;
+}
+
+#play-pause {
+  font-size: 3rem;
+}
+
+#container-botoes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-aplicativo img {
+  height: 20rem ;
+  width: 15rem;
+}
+
+#favIcon {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#repetir {
+  margin-right: 8rem;
+}
+
+#audio-capitulo::-webkit-media-controls-panel {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+@media (min-width: 600px) {
+
+  body{
+    background-repeat: repeat;
+  }
+}
+
+@media (min-width: 380px) {
+
+  body{
+    background-repeat: repeat;
+  }
+}

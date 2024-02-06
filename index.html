@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <div class="cabeca">
+
+            <div class="logo">
+            <h1>Áudio & Livro</h1>
+            </div>
+
+            <div class="menu">
+               <p>Books</p>
+               <p>Audios</p>
+               <p>PodCasts</p>
+            </div>
+
+         </div>
+    </header>
+
+
+    <div class="container-aplicativo">
+        <img id="imgmidia" src="./images/1.png" alt="">
+        <div id="informacoes-faixa">
+            <p id="capitulo">Capítulo 1</p>
+            <p id="nome-autor">Machado de Assis</p>
+        </div>
+        <div id="favIcon">
+            <button id="repetir" class="bi bi-arrow-repeat"></button>
+            <button id="amei" class="bi bi-bookmark-heart"></button>
+        </div>
+        <audio id="audio-capitulo" src="./books/dom-casmurro/1.mp3" controls></audio>
+        <div id="container-botoes">
+            <button id="anterior" class="bi bi-skip-backward-circle-fill"></button>
+            <button id="play-pause" class="bi bi-play-circle-fill"></button>
+            <button id="proximo" class="bi bi-fast-forward-circle-fill"></button>
+        </div>
+    </div>
+    <script src="./main.js" defer></script>
+</body>
+</html>
